@@ -1,0 +1,102 @@
+/* style.css */
+
+/* Root styles */
+.root {
+    -fx-font-family: 'Segoe UI', sans-serif;
+    -fx-background-color: #FFFFFF; /* White background */
+}
+
+/* Title label */
+.title-label {
+    -fx-font-size: 36px;
+    -fx-text-fill: #2E3440; /* Dark grey text */
+    -fx-font-weight: bold;
+}
+
+/* Search field */
+.search-field {
+    -fx-background-color: #F0F0F0; /* Light grey background */
+    -fx-text-fill: #2E3440;
+    -fx-border-color: #CCCCCC; /* Light grey border */
+    -fx-border-radius: 25;
+    -fx-background-radius: 25;
+    -fx-padding: 10 20 10 20;
+    -fx-prompt-text-fill: #888888; /* Grey placeholder text */
+}
+
+/* Search button */
+.search-button {
+    -fx-background-color: #5E81AC; /* Blue accent colour */
+    -fx-text-fill: white;
+    -fx-background-radius: 25;
+    -fx-padding: 10 20 10 20;
+    -fx-font-size: 16px;
+}
+
+/* Search button hover effect */
+.search-button:hover {
+    -fx-background-color: #4C6793; /* Darker blue on hover */
+}
+
+/* Combo box */
+.search-options {
+    -fx-background-color: #F0F0F0;
+    -fx-border-color: #CCCCCC;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 5;
+    -fx-text-fill: #2E3440;
+}
+
+/* Image scroll pane */
+.image-scroll-pane {
+    -fx-background: transparent;
+}
+
+/* Image container */
+.image-container {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #E5E9F0;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(46,52,64,0.1), 5, 0, 0, 2);
+    -fx-opacity: 0; /* Start invisible for fade-in effect */
+    -fx-padding: 10;
+}
+
+/* Image view */
+.image-view {
+    -fx-effect: dropshadow(gaussian, rgba(46,52,64,0.1), 5, 0, 0, 2);
+}
+
+/* Image label */
+.image-label {
+    -fx-text-fill: #4C566A;
+    -fx-font-size: 14px;
+}
+
+/* Status label */
+.status-label {
+    -fx-padding: 10;
+    -fx-font-size: 14px;
+    -fx-text-fill: #4C566A;
+}
+
+/* Progress indicator */
+.progress-indicator {
+    -fx-progress-color: #5E81AC;
+}
+
+/* Button base style */
+.button {
+    -fx-font-size: 16px;
+    -fx-background-radius: 25;
+}
+
+/* Tooltip */
+.tooltip {
+    -fx-background-color: #2E3440;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 12px;
+    -fx-background-radius: 5;
+}
